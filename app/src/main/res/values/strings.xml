@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="btn_c">C</string>
+    <string name="btn_del">DEL</string>
+    <string name="btn_div">/</string>
+    <string name="error_into">ERROR</string>
+    <string name="about">About</string>
+    <string name="unknown">Unknown</string>
+    <string name="version_info">Version: %s Designer:Katy</string>
+</resources>

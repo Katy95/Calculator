@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_divide"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="/"
+        android:onClick="onClick"
+        style="@style/SignBtnStyle"
+        />
+    <Button
+        android:id="@+id/btn_multiply"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="*"
+        android:onClick="onClick"
+        style="@style/SignBtnStyle"
+        />
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="+"
+        android:onClick="onClick"
+        style="@style/SignBtnStyle"
+        />
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="-"
+        android:onClick="onClick"
+        style="@style/SignBtnStyle"
+        />
+    <Button
+        android:id="@+id/btn_equ"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="="
+        android:onClick="onClick"
+        style="@style/SignBtnStyle"
+        />
+
+</merge>
